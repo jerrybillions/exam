@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+   <!---<input type="text" name="" class="form-control js-name">
+    <h2>
+Hey Baby
+<span class="js-change-name"></span>
+    </h2>
+ 
+
+    <input type="text" class="js-names">
+    <h1>
+        hello
+        <span class="names"></span>
+    </h1>-->
+    <script>/*
+       var input=document.querySelector('.js-name')
+        var nameElem=document.querySelector('.js-change-name')
+
+         input.addEventListener('keyup',function(event){
+            console.log(event.target.value);
+            nameElem.innerText=event.target.value 
+         })
+
+
+         var input=document.querySelector('.js-names');
+         var hey=document.querySelector('.names');
+
+         input.addEventListener('keyup', function(event){
+            console.log(event.target.value);
+
+            hey.innerText=event.target.value
+         })*/
+    </script>
+
+
+<h1>project 2</h1>
+<div>
+    <label>backgroundpp</label>
+    <input type="text" 
+    style="font-size: 3opx; padding: 30px;" 
+    class="jb-bg-color">
+
+</div>
+
+<div><label>color</label>
+    <input type="text" 
+    style="font-size: 3opx; padding: 30px;"
+     class="jb-text-color"></div>
+
+
+     <script>
+        var bdColor=document.querySelector('.jb-bg-color');
+        var tetColor=document.querySelector('.jb-text-color');
+
+        var body=document.querySelector('body');
+
+        bdColor.addEventListener('keyup',function(event){
+            console.log(event.target.value)
+            body.style.backgroundColor=event.target.value
+        })
+        tetColor.addEventListener('keyup',function(event){
+            console.log(event.target.value)
+            body.style.color=event.target.value
+        })
+        
+     </script>
+</body>
+</html>

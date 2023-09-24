@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        class animal{
+            constructor(species,weight,height){
+                this.species=String(species)
+                this.height=Number(height)
+                this.weight=Number(weight)
+            }
+        
+
+        getinfo (){
+console.log(
+    this.species+
+    'weight'+ this.weight+
+    'and is about'+this.height+'tall')
+
+        }  
+    }
+
+        const tiger=new animal('cat', 30,  20)
+        tiger.getinfo()
+    
+    </script>
+</body>
+</html>

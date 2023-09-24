@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>TIP CALCULATOR POJECT</b></h1>
+    
+    <div>Bill in Amount in (dollars)
+        <input type="number" class="FORM" style="color: red; background-color: aqua;
+        font-size: 20px;margin-left: 3%;  width: 60%;" >
+<br> 
+ <div>Bill in Amount in (naira)
+    <input type="number" style="color: red; background-color: aqua;
+    font-size: 20px; margin-top: 20px; margin-left: 5%;width: 60%; " >
+
+<br>
+<button class="btn-btn-primary" style="background-color:aqua;
+color:#000; font-size: 20px; margin-top: 20px; text-transform: capitalize;
+margin-left: 32%;"
+ onclick="cal()">calculate tip and total bill</button>
+   </div>
+
+
+   <script>
+var num=900
+    function cal(){
+        var input=document.querySelector('.FORM');
+        var value=Number(input.value);
+        var total=value*num;
+        
+        input.addEventListener('click','event',function(event){
+            var me='the total sum'+total;
+           
+        })
+
+    
+    }
+   </script>
+</body>
+</html>

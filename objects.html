@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1 style="text-transform: capitalize;">object syntax</h1>
+    <script>
+       /* var objectName={
+            'key':'hello 1'
+            'key2':'hello 2'
+            'key3': 'hello 3'
+        }
+
+      Object[]*/
+
+  /*for(var i=0; i<10;i++){
+    console.log(i)
+   }
+ */
+var names=['jerry','billions','chris','xtopha','new','kalob']
+function toemailaddress(names){
+    return names.lowercase() + '@gmail.com'}
+
+ for(var i=0; i<names.length; i++){
+    var currentNames=names[i].toLowerCase()+'@gmail.com';
+    console.log(currentNames)
+ }
+
+ var words="Lorem ipsum dolor sit amet  vel mollitia iste minima laboriosam ex, sed dolorem ipsamconsectetupisicing elit. Illo deserunt   reiciendis tenetur dolor nulla ipsum officia  Deleniti ex qui labore in velit dolorem voluptatum odio magni,  commodi est optio. Ut corrupti alias  asperiores facere quisqua" 
+     
+     for(var i=0; i<words.length; i++){
+        var wordss=words[i].toUpperCase()+'@gmail.com';
+        console.log(wordss)
+     }
+
+     /*while loop
+     var num=Number(prompt('give me a number'))
+     var startingNum=1
+     while(starting<=num){
+        cosole.log(startingNum)
+        startingNum=starting=startingNum + 1
+        startingNum++
+     }*/
+
+      
+    </script>  
+</body>
+</html>
